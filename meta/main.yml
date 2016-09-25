@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Barry Rawlinson
+  description: SELinux stuff 
+  license: GPL
+  min_ansible_version: 1.4
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 24
+
+  categories:
+  - web
+
+dependencies: []
