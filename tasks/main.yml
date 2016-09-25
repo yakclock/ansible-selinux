@@ -1,0 +1,5 @@
+- name: Install selinux tools
+  dnf: name={{ item }} state=latest
+  with_items:
+  - setroubleshoot-server
+  - selinux-policy-devel
